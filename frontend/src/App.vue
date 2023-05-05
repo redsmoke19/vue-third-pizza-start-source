@@ -4,15 +4,9 @@
   </app-layout>
 </template>
 
-<script>
+<script setup>
 import AppLayout from "@/layouts/AppLayout.vue";
 import HomeView from "@/views/HomeView.vue";
-import {defineComponent} from "vue";
-
-export default defineComponent({
-  components: {HomeView, AppLayout}
-})
-
 </script>
 
 <style lang="scss">
@@ -62,5 +56,4 @@ body {
     margin: 0 auto;
   }
 }
-
 </style>
